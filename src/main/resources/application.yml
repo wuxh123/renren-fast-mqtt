@@ -41,9 +41,9 @@ spring:
   resources:
     add-mappings: false
   mqtt:
-    host: tcp://47.105.110.183:61613
+    host: tcp://127.0.0.1:61613
     username: admin
-    password: 123456aa??
+    password: 123456
     topic: mqtt/test/#
     timeout: 1000
     keepalive: 2000
