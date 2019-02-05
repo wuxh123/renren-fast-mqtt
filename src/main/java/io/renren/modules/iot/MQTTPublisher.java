@@ -24,7 +24,7 @@ public class MQTTPublisher implements CommandLineRunner {
     }
 
     Integer sem=0;
-    CallBackPublisher callback = new CallBackPublisher(this);
+    CallBackPublisher callback = new CallBackPublisher();
 
     public MQTTPublisher() {
     }
