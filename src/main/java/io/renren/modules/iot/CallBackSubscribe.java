@@ -39,7 +39,6 @@ public class CallBackSubscribe implements MqttCallback {
     @Override
     public void connectionLost(Throwable cause) {
         System.out.println("订阅,连接失败重连");
-        sub.run(null);
     }
 
     @Override
