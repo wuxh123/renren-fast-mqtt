@@ -29,7 +29,7 @@ public class MQTTSubscribe implements CommandLineRunner {
     }
 
     Integer sem=0;
-    CallBackSubscribe callback =  new CallBackSubscribe(this);
+    CallBackSubscribe callback =  new CallBackSubscribe();
 
     public String subscribe() {
         try {
