@@ -36,7 +36,6 @@ public class CallBackPublisher implements MqttCallback {
     @Override
     public void connectionLost(Throwable cause) {
         System.out.println("发布，触发断线事件。");
-        pub.run(null);
     }
 
     @Override
